@@ -1,0 +1,23 @@
+.footer {
+    position: relative;
+    top: 90%;
+    color: red;
+}
+
+.headers h1 {
+    margin: 80px auto 50px auto;
+    font-size: 40px;
+}
+
+.headers h3, p {
+    text-align: center;
+}
+
+.headers p {
+    width: 700px;
+    margin-top: 40px;
+}
+
+.lastparagraph {
+    margin-bottom: 99px;
+}
