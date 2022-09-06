@@ -1,0 +1,47 @@
+/* RESET ALL DEFAULT STYLES TO ADD OUR OWN */
+* {
+    margin: 0; 
+    padding: 0;
+    text-decoration: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    margin: 16px auto;
+    line-height: 1.5em;
+}
+
+.layout {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+    color: blue;
+}
+
+nav .links {
+    display: inline;
+    text-align: right;
+}
+
+nav a {
+    margin-left: 30px;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: coral;
+}
+
+footer p {
+    text-align: center;
+}
