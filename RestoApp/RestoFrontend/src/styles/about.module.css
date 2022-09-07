@@ -5,8 +5,12 @@
 }
 
 .headers h1 {
-    margin: 80px auto 50px auto;
+    text-align: center;
+    margin-bottom: 20px;
     font-size: 40px;
+    color: coral;
+    -webkit-text-stroke: white 0.5px;
+    text-decoration: underline white 1px;
 }
 
 .headers h3, p {
@@ -19,5 +23,5 @@
 }
 
 .lastparagraph {
-    margin-bottom: 99px;
+    margin-bottom: 247px;
 }
