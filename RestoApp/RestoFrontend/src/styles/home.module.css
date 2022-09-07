@@ -8,6 +8,7 @@
     width: 400px;
     height: 510px;
     border: 5px solid white;
+    border-radius: 5px;
     margin: 40px 40px;
 }
 
@@ -15,18 +16,22 @@
     text-align: center;
 }
 
-.menuItem button {
+.menuItem a {
     position: relative;
-    left: 29%;
     top: 60%;
-    width: 12em;
-    height: 3em;
+    left: 22.5%;
+    display: block;
+    width: 200px;
+    height: 25px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
     color: black;
     font-weight: bold;
-    font-size: 15px;
-    border-radius: 5px;
+    line-height: 25px;
 }
 
-.menuItem button:hover {
+.menuItem a:hover {
     background-color: coral;
 }

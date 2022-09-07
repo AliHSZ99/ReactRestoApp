@@ -42,6 +42,10 @@ nav a:hover {
     color: coral;
 }
 
+nav h1 a:hover {
+    color: white;
+}
+
 footer p {
     text-align: center;
     margin: 50px auto;

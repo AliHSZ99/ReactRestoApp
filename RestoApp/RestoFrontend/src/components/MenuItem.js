@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 export default function MenuItem() {
     return (
@@ -8,7 +9,7 @@ export default function MenuItem() {
             <h2>Menu Item Name</h2>
             <p>Menu Item Description</p>
             <p>Price</p>
-            <button>Add to cart</button>
+            <Link to="/thankyou">Add to cart</Link>
         </div>
     );
 }
