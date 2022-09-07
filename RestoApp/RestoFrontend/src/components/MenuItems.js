@@ -29,13 +29,10 @@ export default function MenuItems() {
         return <p>Error...</p>
     }
 
-    console.log(data)
-
     return (
         <div className={styles.menuItem}>
             {data.items.map(item => (
                 <div key={item.id}>
-                    {/* Use gatsby image here: WATCH YOUTUBE VIDEO */}
                     <h2 className={styles.name}>{item.name}</h2>
                     <img className={styles.images} src={"http://localhost:1337" + item.image.formats}></img>
                     <p>{item.price}</p>
